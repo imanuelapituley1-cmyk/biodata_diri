@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri - [Henriano]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+      pompo.jpg {
+            font-size: 80px;
+            color: #777;
+        }
+
+        .name {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .left-column, .right-column {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #7daf4c;
+            display: flex;
+            align-items: center;
+        }
+
+        .section-title i {
+            margin-right: 10px;
+            color: #4ca1af;
+        }
+
+        .info-item {
+            margin-bottom: 12px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .info-label {
+            font-weight: 600;
+            width: 120px;
+            flex-shrink: 0;
+        }
+
+        .info-value {
+            flex: 1;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .skill {
+            background: #4ca1af;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background: #2c3e50;
+            color: rgb(255, 255, 255);
+            border-radius: 50%;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            transform: translateY(-3px);
+            background: #4ca1af;
+        }
+
+        .quote {
+            font-style: italic;
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #4ca1af;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            
+            .name {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="header">
+                <div class="profile-img">
+                    <img src="pompo.jpg" alt="Foto Profil" width="600" height="200" style="border-radius: 100%;">
+                    <i class="pompo.jpg"></i>
+                </div>
+                <h1 class="name">Henriano Imanuel Apituley</h1>
+                
+                <div class="social-links">
+                    <a href="https://wa.me/+6281343081916" class="social-link" target="_blank">
+  <i class="fab fa-whatsapp"></i>
+  </a>
+                    <a href="https://www.instagram.com/imanuel_apy?igsh=OXpwNjRjdWc5MG1r" class="social-link" target="_blank">
+  <i class="fab fa-instagram"></i>
+</a>
+                    
+                </div>
+            </div>
+            
+            <div class="content">
+                <div class="left-column">
+                    <div class="section">
+                        <h2 class="section-title"><i class="fas fa-user"></i> Tentang Saya</h2>
+                        <p>Saya adalah seorang anak rantau yang jauh dari rumah, datang ke kampus politeknik negeri manado, untuk berkuliah dan mengasa kemampuan saya di bidang teknik komputer</p>
+                    </div>
+                    
+                    <div class="section">
+                        <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Pendidikan</h2>
+                        <div class="info-item">
+                            <div class="info-label">2016 - 2020</div>
+                            <div class="info-value">
+                                <strong>Universitas Indonesia</strong><br>
+                                S1 Teknik Informatika<br>
+                                IPK: 3.75/4.00
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">2013 - 2016</div>
+                            <div class="info-value">
+                                <strong>SMA Negeri 1 Jakarta</strong><br>
+                                Jurusan IPA
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h2 class="section-title"><i class="fas fa-briefcase"></i> Pengalaman Kerja</h2>
+                        <div class="info-item">
+                            <div class="info-label">2021 - Sekarang</div>
+                            <div class="info-value">
+                                <strong>PT. Teknologi Maju</strong><br>
+                                Web Developer<br>
+                                Mengembangkan aplikasi web untuk klien korporat.
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">2020 - 2021</div>
+                            <div class="info-value">
+                                <strong>Startup Digital Indonesia</strong><br>
+                                Frontend Developer<br>
+                                Membuat antarmuka pengguna untuk aplikasi mobile dan web.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="right-column">
+                    <div class="section">
+                        <h2 class="section-title"><i class="fas fa-info-circle"></i> Informasi Pribadi</h2>
+                        <div class="info-item">
+                            <div class="info-label">Nama Lengkap</div>
+                            <div class="info-value">Henriano Imanuel Apituley</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Tempat Lahir</div>
+                            <div class="info-value">Maluku</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Tanggal Lahir</div>
+                            <div class="info-value">05 Desember 2005</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Jenis Kelamin</div>
+                            <div class="info-value">Laki-laki</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Email</div>
+                            <div class="info-value">imanuelapituley.@gmail.com</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Telepon</div>
+                            <div class="info-value">+62 812-3456-7890</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Alamat</div>
+                            <div class="info-value">Jl. Merdeka No. 123, Jakarta Selatan</div>
+                        </div>
+                    </div>
+                    
+                
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <h2 class="section-title"><i class="fas fa-language"></i> Bahasa</h2>
+                        <div class="info-item">
+                            <div class="info-label">Indonesia</div>
+                            <div class="info-value">Bahasa Ibu</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Inggris</div>
+                            <div class="info-value">Fasih</div>
+                        </div>
+                        <div class="info-item">
+                            <div class="info-label">Jepang</div>
+                            <div class="info-value">Dasar</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="quote">
+                "Kualitas bukanlah suatu tindakan, melainkan kebiasaan." - Aristotle
+            </div>
+        </div>
+    </div>
+</body>
+</html>
